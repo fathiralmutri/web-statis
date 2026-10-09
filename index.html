@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFA Studio - Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <!-- Bagian kiri -->
+        <section class="left" aria-label="MFA Studio">
+            <div class="logo" aria-label="MFA Studio logo">M</div>
+
+            <h1>Welcome to<br>MFA Studio.</h1>
+
+            <p>
+                A simple place to start your day
+                and organize your ideas.
+            </p>
+
+            <div class="decoration" aria-hidden="true">
+                <div class="shape shape-one"></div>
+                <div class="shape shape-two"></div>
+                <div class="shape shape-three"></div>
+            </div>
+
+            <footer>© 2026 MFA Studio</footer>
+        </section>
+
+        <!-- Bagian kanan -->
+        <section class="right" aria-label="Sign in section">
+            <div class="login-box">
+
+                <h2>Sign In</h2>
+
+                <p class="subtitle">
+                    Welcome back! Please enter your details.
+                </p>
+
+                <button type="button" class="google-button"
+                    aria-label="Sign in with Google">
+                    <span class="google-icon" aria-hidden="true">G</span>
+                    Sign in with Google
+                </button>
+
+                <div class="divider">
+                    <span></span>
+                    <span>or</span>
+                    <span></span>
+                </div>
+
+                <form action="#" method="get">
+
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required>
+
+                    <div class="password-title">
+                        <label for="password">Password</label>
+                        <a href="#" aria-label="Forgot your password?">
+                            Forgot Password?
+                        </a>
+                    </div>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        autocomplete="current-password"
+                        required>
+
+                    <label class="remember">
+                        <input type="checkbox" name="remember">
+                        <span>Remember me</span>
+                    </label>
+
+                    <button type="submit" class="login-button">
+                        Sign In
+                    </button>
+
+                </form>
+
+                <p class="signup">
+                    Don't have an account?
+                    <a href="#">Sign up</a>
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
